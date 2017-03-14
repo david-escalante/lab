@@ -1,0 +1,35 @@
+
+.container {
+    float: left;
+    margin: 0 auto;
+}
+
+.row{
+    max-width: 100%;
+    float: left;
+    margin: 10px;
+}
+
+.col-2{
+    max-width: 18%;
+    float: left;
+    margin: 10px;
+}
+
+.col-5 {
+    max-width: 38%;
+    float: left;
+    margin: 10px;
+}
+
+.col-10{
+    max-width: 78%;
+    float: left;
+    margin: 10px;
+}
+
+.col-12{
+    max-width: 98%;
+    float: left;
+    margin: 10px;
+}

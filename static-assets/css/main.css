@@ -1,0 +1,129 @@
+
+
+html {
+
+}
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    font-family: 'arial', helvetica;
+    text-align: justify;
+}
+
+/* Global styles */
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.clearfix {
+    overflow: hidden;
+}
+.h1-reset {
+    margin: 0;
+    padding: 0;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.fixed {
+    position: fixed;
+}
+.gutter {
+    margin: 50px;
+}
+
+/*// html*/
+.template-absolute, .template-relative, .template-fixed, .template-float-right {
+    background-color: darkred;
+}
+.wrap-content {
+    background-color: #d0d0d0;
+    margin: 5px;
+    padding: 20px;
+    border: solid #000 23px;
+    position: relative;
+}
+.template-absolute > .wrap-content > .absolute {
+    right: 0;
+    top: 0;
+    color: #FFF;
+    padding: 20px 10px 10px 15px;
+    background-color: #5a5a5a;
+}
+.template-fixed > .wrap-content > .fixed {
+    right: 0;
+    top: 100px;
+    color: #FFF;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 15px;
+    background-color: #5a5a5a;
+}
+.template-float-right > .wrap-content > .float-left {
+    padding: 10px;
+    max-width: 100px;
+}
+
+.col-70 {
+    width: 70%;
+    margin-right: 20px;
+}
+.col-20 {
+    width: 20%;
+}
+.col-30 {
+    width: 27%;
+    margin-right: 20px;
+}
+.col-30:last-child {
+    margin-right: 0;
+}
+.fix-width-layout, .liquid-width-layout {
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.liquid-width-layout {
+    width: 90%;
+}
+#nav, #features, #footer {
+    background-color: #efefef;
+    margin: 10px;
+    padding: 10px;
+}
+#nav > ul > li {
+    list-style: none;
+}
+#nav > ul > li > a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fix-width-layout .col-30 {
+    background-color: #efefef;
+    width: 300px;
+    margin: 10px;
+}
+.liquid-width-layout .col-30 {
+    width: 31.3%;
+    margin: 1%;
+    background-color: #efefef;
+    height: 10em;
+}
+.liquid-width-layout #features {
+    height: 10em;
+}
+.liquid-width-layout #nav, .liquid-width-layout #features,
+.liquid-width-layout #footer {
+    margin: 1%;
+}
+
